@@ -38,3 +38,15 @@ div.intro h1{
     height: fit-content;
     
 }
+table{
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    tr{
+        background-color: azure;
+        border: 1px solid black;
+    }
+    td{
+        border: 1px solid black;
+    }
+}
