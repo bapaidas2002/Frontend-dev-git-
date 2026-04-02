@@ -27,6 +27,7 @@ div.intro{
   }
 }
 .vertical-line {
-    border-left: 300px solid rgb(110, 65, 65);
+    border-left:300px  solid rgb(110, 65, 65);
     height: fit-content;
+    
 }
