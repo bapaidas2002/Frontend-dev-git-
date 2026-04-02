@@ -19,13 +19,20 @@ div.intro{
   border: 1px solid black;
   color: black;
   backface-visibility: hidden;
-  h1{
+}
+
+div.intro h1{
     color: black;
     text-align: center;
-    
-
-  }
+    font-family: 'Courier New', monospace; /* Better for typewriter effect */
 }
+
+div.intro h1{
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', monospace; /* Better for typewriter effect */
+}
+
 .vertical-line {
     border-left:300px  solid rgb(110, 65, 65);
     height: fit-content;
