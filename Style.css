@@ -9,6 +9,12 @@ img{
     width: 50px;
     height: 50px;
 }
+div.logo{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 20px;
+}
 
 intro-h3{
     color: red;
@@ -29,15 +35,45 @@ div.intro h1{
 
 div.intro h1{
     color: black;
-    text-align: center;
+    text-align: left;
     font-family: 'Courier New', monospace; /* Better for typewriter effect */
 }
 
-.vertical-line {
-    border-left:300px  solid rgb(110, 65, 65);
-    height: fit-content;
-    
+#logo-img{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
 }
+
+.side-bar{
+    width: fit-content;
+    height: 95vh;
+    padding: 20px;
+}
+
+#side-bar-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display:flex;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    ;
+}
+
 table{
     border: 1px solid black;
     width: 50%;
